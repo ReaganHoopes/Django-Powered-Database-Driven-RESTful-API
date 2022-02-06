@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gold</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'gold/style.css' %}">
+</head>
+<body id = "body">
+    <script src = "{% static '/gold/script.js' %}"></script>
+
+    <div id= "mainDiv">
+        <h1>What's Your Weight's Worth In Gold?</h1>
+
+        <h2>Input Your Weight And Press The <code>=</code> Button To See What You're Worth</h2>
+        <h2>For Your Privacy, Results Are Removed When Clicked</h2>
+
+
+        Your Weight: <input type ="number" name ="weight" id="weight"/>
+        <select id = "dataset" name = "dataset">
+            <option value = "Pounds" id = "lb">Pounds</option>
+            <option value = "Dry Ounces" id ="oz">Dry Ounces</option>
+            <option value = "Troy Ounces" id="t_oz">Troy Ounces</option>
+            <option value = "Kilograms" id="kg">Kilograms</option>
+            <option value = "Grams" id="g">Grams</option>
+            <option value = "Tons" id="T">Tons</option>
+        </select>
+            <button onclick="go_fetch()" class="inline-item" type="button">=</button>
+        <p id = "msgText"></p>
+
+    </div>
+
+<!--    <script>-->
+<!--        document.onload = update_url(document.querySelector('dataset'));-->
+<!--    </script>-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--{% load static %}-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Gold</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="{% static 'gold/style.css' %}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <script src = "{% static '/gold/script.js' %}"></script>-->
+
+<!--    <div class = "mainDiv">-->
+<!--        <h1>What's Your Weight's Worth In Gold?</h1>-->
+
+<!--        <h2>Input Your Weight And Press The <code>=</code> Button To See What You're Worth</h2>-->
+<!--        <h2>For Your Privacy, Results Are Removed When Clicked</h2>-->
+
+<!--        <form action = "" method = "get">-->
+<!--            Your Weight: <input type ="number" name ="weight" id="weight"/>-->
+<!--        <select name="unit" id="unit">-->
+<!--            <option value = "Pounds">Pounds</option>-->
+<!--            <option value = "Dry Ounces">Dry Ounces</option>-->
+<!--            <option value = "Troy Ounces">Troy Ounces</option>-->
+<!--            <option value = "Kilograms">Kilograms</option>-->
+<!--            <option value = "Grams">Grams</option>-->
+<!--            <option value = "Tons">Tons</option>-->
+<!--        </select>-->
+<!--            <input type="submit" value="="/>-->
+<!--        </form>-->
+<!--        <p>The Price Of Gold As Of {{date}} is ${{price}} Per Troy Ounce</p>-->
+<!--        <p class = "errorText"></p>-->
+
+<!--    </div>-->
+
+<!--&lt;!&ndash;    <script>&ndash;&gt;-->
+<!--&lt;!&ndash;        document.onload = update_url(document.querySelector('dataset'));&ndash;&gt;-->
+<!--&lt;!&ndash;    </script>&ndash;&gt;-->
+<!--</body>-->
+<!--</html>-->

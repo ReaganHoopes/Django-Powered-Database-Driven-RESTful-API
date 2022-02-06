@@ -1,0 +1,47 @@
+
+#mainDiv{
+	font-family: 'helvetica neue', helvetica, sans-serif;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 3px 10px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	background: gray;
+}
+
+.red {
+	font-family: 'helvetica neue', helvetica, sans-serif;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 3px 10px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	background:   rgb(180,60,60);
+	box-shadow: 1px 1px 2px rgba(200,0,0,0.4);
+}
+
+.green {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 3px 10px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	background:   rgb(60,180,60);
+	box-shadow: 1px 1px 2px rgba(0,200,0,0.4);
+}
