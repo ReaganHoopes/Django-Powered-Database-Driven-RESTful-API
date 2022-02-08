@@ -15,5 +15,7 @@ How to use:
 - You can then calculate conversions as explained above
 
 Languages used:
+- Python
+- JavaScript
 - HTML
 - CSS
